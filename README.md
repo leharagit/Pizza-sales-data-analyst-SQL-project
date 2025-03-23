@@ -67,17 +67,6 @@ The Pizza Ordering System efficiently tracks and analyzes pizza sales and revenu
 ```bash
 git clone https://github.com/yourusername/pizza-ordering-system.git
 ```
-
-### Set Up the Database
-1. Ensure you have a MySQL database installed and configured.
-2. Run the provided SQL scripts to create the necessary tables in your database.
-
-### Configure Your Environment
-- Update the connection settings in the configuration file to match your database credentials.
-
-### Run the Project
-- Launch the application using the appropriate environment for your system (e.g., Node.js, Python, etc.).
-
 ## Acknowledgments
 - **Lehara Oshan** -
 
