@@ -38,11 +38,47 @@ The system uses a relational database to manage orders and pizza information. Be
 - **size**: Size of the pizza (e.g., Small, Medium, Large).
 - **price**: Price of the pizza.
 
-## SQL Queries
 
-Below are some key SQL queries used to analyze the data:
 
-1. **Retrieve the total number of orders placed**:
-   ```sql
-   SELECT COUNT(order_id) FROM orders;
+## Overview
+The Pizza Ordering System efficiently tracks and analyzes pizza sales and revenue. This system provides valuable insights into order patterns, revenue trends, and customer preferences.
+
+## Key Insights
+- The most ordered pizza types belong to the chicken category.
+- Peak order times are observed around noon and late evening.
+- The top 3 most ordered pizza types based on revenue generate significant sales.
+
+## Recommendations
+- Consider promotions for chicken pizzas to further boost sales.
+- Focus on increasing sales during off-peak hours to optimize revenue.
+
+## Features
+- Identify the most common pizza size ordered.
+- List the top 5 most ordered pizza types along with their quantities.
+- Determine the distribution of orders by hour of the day.
+- Calculate the total quantity of each pizza category ordered.
+- Group orders by date and calculate the average number of pizzas ordered per day.
+- Determine the top 3 most ordered pizza types based on revenue.
+- Analyze cumulative revenue generated over time.
+
+## Installation
+
+### Clone the Repository
+```bash
+git clone https://github.com/yourusername/pizza-ordering-system.git
+```
+
+### Set Up the Database
+1. Ensure you have a MySQL database installed and configured.
+2. Run the provided SQL scripts to create the necessary tables in your database.
+
+### Configure Your Environment
+- Update the connection settings in the configuration file to match your database credentials.
+
+### Run the Project
+- Launch the application using the appropriate environment for your system (e.g., Node.js, Python, etc.).
+
+## Acknowledgments
+- **Lehara Oshan** -
+
 
